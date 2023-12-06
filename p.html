@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* Resetting default margin and padding */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling the header */
+header {
+  background-color: #eaaeae;
+  color: rgb(19, 18, 18);
+  text-align: center;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: rgb(21, 21, 21);
+  text-decoration: none;
+}
+
+/* Styling sections */
+section {
+  padding: 50px;
+}
+
+/* Styling footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+</style>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to My Portfolio</h2>
+    <p>I am an aspiring computer science student!</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am Ridhin Joseph.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Tic Tac Toe using C++</h3>
+      <p>In a Tic Tac Toe game implemented in C++, a 3x3 grid is represented using a 2D array initialized with empty spaces. Players take turns entering row and column coordinates to place their marks ('X' or 'O') on the board. After each move, the board is displayed, illustrating the current game state. A win condition is checked by examining rows, columns, and diagonals for three consecutive marks. The game continues until a player wins or the board fills up, resulting in a draw. The game flow alternates between players, ensuring they make valid moves and tracking the progress until a conclusive outcome is reached, delivering an engaging and interactive gameplay experience.</p>
+    </div>
+    <!-- Add more project sections as needed -->
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>You can reach me at: ridhinjoseph@gmail.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 My Portfolio</p>
+  </footer>
+</body>
+</html>
